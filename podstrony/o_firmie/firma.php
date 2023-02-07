@@ -25,9 +25,9 @@
     <div>
       <h3 class="float-md-start mb-0">GIKA O firmie</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="/gika2/index.html">Strona główna</a>
-        <a class="nav-link fw-bold py-1 px-0" href="/gika2/podstrony/kontakt/kontakt.php">Kontakt</a>
-        <a class="nav-link fw-bold py-1 px-0" href="/gika2/podstrony/realizacje/realizacje.html">Realizacje</a>
+        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="/index.html">Strona główna</a>
+        <a class="nav-link fw-bold py-1 px-0" href="/podstrony/kontakt/kontakt.php">Kontakt</a>
+        <a class="nav-link fw-bold py-1 px-0" href="/podstrony/realizacje/realizacje.html">Realizacje</a>
       </nav>
     </div>
   </header>
@@ -44,7 +44,7 @@
     </div>
 					
 					<div class="col-12">
-			  				<img src="/gika2/photo/panorama2.jpg" class="zdjecie">
+			  				<img src="/photo/panorama2.jpg" class="zdjecie">
 						</a>	
 					</div>
 
