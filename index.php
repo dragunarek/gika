@@ -1,4 +1,15 @@
+<?php
 
+$counter = 0;
+
+if(file_exists("counter.txt")){
+   $counter = file_get_contents("counter.txt");
+   $counter++;
+   file_put_contents("counter.txt", $counter);
+} else {
+   file_put_contents("counter.txt", 1);
+}
+?>
 
 <!doctype html>
 <html lang="pl" class="h-100">
@@ -11,11 +22,10 @@
 
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
-
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
   </head>
+
   <body class="d-flex h-100 text-center text-white bg-dark">
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -42,6 +52,7 @@
    
 
     <p class="mb-1">&copy; 2023 CyberADS</p>
+    <p class="mb-1"><?php echo "Liczba odsłon: " . $counter;?></p>
   </footer>
 </div>
 

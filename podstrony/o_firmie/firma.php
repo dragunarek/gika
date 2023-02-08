@@ -7,19 +7,17 @@
     <title>Kontakt</title>
 
 
-<<<<<<< HEAD
-    <link href="/gika2/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-=======
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
->>>>>>> 3c6629b (Nowy katalog)
-	 <link href="cover.css" rel="stylesheet">
+    <link href="/gika/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	  <link href="cover.css" rel="stylesheet">
+
    <style>
 		.zdjecie{
 			height: auto;
 			width: 100%;		
 		}   
-   
    </style>
+
   </head>
   <body class="text-white bg-dark">
   
@@ -29,9 +27,9 @@
     <div>
       <h3 class="float-md-start mb-0">GIKA O firmie</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="/index.html">Strona główna</a>
-        <a class="nav-link fw-bold py-1 px-0" href="/podstrony/kontakt/kontakt.php">Kontakt</a>
-        <a class="nav-link fw-bold py-1 px-0" href="/podstrony/realizacje/realizacje.html">Realizacje</a>
+        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="/gika/index.php">Strona główna</a>
+        <a class="nav-link fw-bold py-1 px-0" href="/gika/podstrony/kontakt/kontakt.php">Kontakt</a>
+        <a class="nav-link fw-bold py-1 px-0" href="/gika/podstrony/realizacje/realizacje.html">Realizacje</a>
       </nav>
     </div>
   </header>
@@ -43,12 +41,12 @@
   <main>
     <div class="py-5 text-center">
       <h3>GIKA</h3></br>
-      <h4>Specjalizujemy się w zabudowach z płyt gipsowo-kartonowych. Na rynku budowlanym działamy od ponad 10 lat. Naszym głównym zajęciem obecnie jest praca przy tzw. suchej zabudowie a więc głównie adaptacje poddaszy (ocieplanie, zabudowa płytami g-k), ścianki działowe, sufity podwieszane i zabudowa łazienek. Poza tym układamy glazurę i terakotę. </h4>
+      <h4>Specjalizujemy się w zabudowach z płyt gipsowo-kartonowych. Na rynku budowlanym działamy od ponad 10 lat. Naszym głównym zajęciem obecnie jest praca przy tzw. suchej zabudowie a więc głównie adaptacje poddaszy (ocieplanie, zabudowa płytami g-k), ścianki działowe, sufity podwieszane i zabudowa łazienek.</h4>
       <p class="lead">Zapraszamy do kontaktu emailowego. Odpowiemy na każde zapytanie. </p>
     </div>
 					
 					<div class="col-12">
-			  				<img src="/photo/panorama2.jpg" class="zdjecie">
+			  				<img src="/gika/photo/panorama2.jpg" class="zdjecie">
 						</a>	
 					</div>
 
@@ -59,11 +57,7 @@
   </main>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
-<<<<<<< HEAD
-      <p class="mb-1">&copy; 2023 ARKNET</p>
-=======
-      <p class="mb-1">&copy; 2022 ARKNET</p>
->>>>>>> 3c6629b (Nowy katalog)
+      <p class="mb-1">&copy; 2023 CyberADS</p>
     </footer>
     </body>
 </html>
