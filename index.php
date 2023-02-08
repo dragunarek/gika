@@ -1,30 +1,4 @@
-<?php
-    //ob_start();
-    
-    if(!$_COOKIE['index.php']=="1")
-    {
-        $plik="licznik.txt";
-       
-        
-        //odczytujemy aktualną wartość z pliku
-        $file=fopen($plik, "r");
-        flock($file, 1);
-        $liczba=fgets($file, 16);
-        flock($file, 3);
-        fclose($file);
-        $liczba++; //zwiększamy o 1
-        
-        //zapisujemy nową wartość licznika
-        $file=fopen($plik, "w");
-        flock($file, 2);
-        fwrite($file, $liczba++);
-        flock($file, 3);
-        fclose($file); 
-        
-        setcookie("","1");
-        //ob_end_flush();
-    }
-?>
+
 
 <!doctype html>
 <html lang="pl" class="h-100">
@@ -67,7 +41,7 @@
   
    
 
-    <p class="mb-1">&copy; 2023 BITARO</p>
+    <p class="mb-1">&copy; 2023 CyberADS</p>
   </footer>
 </div>
 
