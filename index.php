@@ -1,3 +1,31 @@
+<?php
+    //ob_start();
+    
+    if(!$_COOKIE['index.php']=="1")
+    {
+        $plik="licznik.txt";
+       
+        
+        //odczytujemy aktualną wartość z pliku
+        $file=fopen($plik, "r");
+        flock($file, 1);
+        $liczba=fgets($file, 16);
+        flock($file, 3);
+        fclose($file);
+        $liczba++; //zwiększamy o 1
+        
+        //zapisujemy nową wartość licznika
+        $file=fopen($plik, "w");
+        flock($file, 2);
+        fwrite($file, $liczba++);
+        flock($file, 3);
+        fclose($file); 
+        
+        setcookie("","1");
+        //ob_end_flush();
+    }
+?>
+
 <!doctype html>
 <html lang="pl" class="h-100">
   <head>
@@ -9,18 +37,11 @@
 
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<<<<<<< HEAD
-    <link href="cover.css" rel="stylesheet">
-
-  </head>
-  
-=======
 
 
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
   </head>
->>>>>>> 3c6629b (Nowy katalog)
   <body class="d-flex h-100 text-center text-white bg-dark">
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -36,21 +57,17 @@
   </header>
 
   <main class="px-3">
-<<<<<<< HEAD
 	
 	
-=======
->>>>>>> 3c6629b (Nowy katalog)
     
   </main>
 
   <footer class="mt-auto text-white-50">
-<<<<<<< HEAD
-    <p class="mb-1">&copy; 2023 CyberADS</p>
-=======
+
   
-    <p class="mb-1">&copy; 2022 BITARO</p>
->>>>>>> 3c6629b (Nowy katalog)
+   
+
+    <p class="mb-1">&copy; 2023 BITARO</p>
   </footer>
 </div>
 

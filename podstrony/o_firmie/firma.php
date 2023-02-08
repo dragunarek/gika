@@ -7,7 +7,11 @@
     <title>Kontakt</title>
 
 
+<<<<<<< HEAD
     <link href="/gika2/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+=======
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+>>>>>>> 3c6629b (Nowy katalog)
 	 <link href="cover.css" rel="stylesheet">
    <style>
 		.zdjecie{
@@ -55,7 +59,11 @@
   </main>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
+<<<<<<< HEAD
       <p class="mb-1">&copy; 2023 ARKNET</p>
+=======
+      <p class="mb-1">&copy; 2022 ARKNET</p>
+>>>>>>> 3c6629b (Nowy katalog)
     </footer>
     </body>
 </html>
