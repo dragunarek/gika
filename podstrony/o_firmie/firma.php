@@ -7,7 +7,7 @@
     <title>Kontakt</title>
 
 
-    <link href="/gika/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	  <link href="cover.css" rel="stylesheet">
 
@@ -27,9 +27,9 @@
     <div>
       <h3 class="float-md-start mb-0">GIKA O firmie</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="/gika/index.php">Strona główna</a>
-        <a class="nav-link fw-bold py-1 px-0" href="/gika/podstrony/kontakt/kontakt.php">Kontakt</a>
-        <a class="nav-link fw-bold py-1 px-0" href="/gika/podstrony/realizacje/realizacje.html">Realizacje</a>
+        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="/index.php">Strona główna</a>
+        <a class="nav-link fw-bold py-1 px-0" href="/podstrony/kontakt/kontakt.php">Kontakt</a>
+        <a class="nav-link fw-bold py-1 px-0" href="/podstrony/realizacje/realizacje.html">Realizacje</a>
       </nav>
     </div>
   </header>
@@ -46,7 +46,7 @@
     </div>
 					
 					<div class="col-12">
-			  				<img src="/gika/photo/panorama2.jpg" class="zdjecie">
+			  				<img src="/photo/panorama2.jpg" class="zdjecie">
 						</a>	
 					</div>
 
