@@ -19,9 +19,9 @@
     <div>
       <h3 class="float-md-start mb-0">GIKA Kontakt</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="/gika/index.php">Strona główna</a>
-        <a class="nav-link fw-bold py-1 px-0" href="/gika/podstrony/o_firmie/firma.php">O firmie</a>
-        <a class="nav-link fw-bold py-1 px-0" href="/gika/podstrony/realizacje/realizacje.html">Realizacje</a>
+        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="/index.php">Strona główna</a>
+        <a class="nav-link fw-bold py-1 px-0" href="/podstrony/o_firmie/firma.php">O firmie</a>
+        <a class="nav-link fw-bold py-1 px-0" href="/podstrony/realizacje/realizacje.html">Realizacje</a>
       </nav>
     </div>
   </header>
